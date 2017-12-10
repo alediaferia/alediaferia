@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    font: 0.8em "Arial", sans-serif;
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+    overflow-y: visible;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sidebar {
+    width: 239px;
+    height: 100%;
+    float: left;
+    background-color: #0854a8;
+    color: white;
+    position: absolute;
+    padding-bottom: 72px;
+}
+
+.sidebar > .head {
+    padding: 0 10px 0 20px;
+}
+
+.sidebar > .head > h1 {
+    font-weight: 300;
+}
+
+.sidebar > .head > h2 {
+    font-weight: 300;
+}
+
+.sidebar > h3 {
+    margin: 0;
+    background-color: #071a60;
+    padding: 6px 3px;
+}
+
+.sidebar > ul {
+    list-style-type: none;
+    padding-left: 10px;
+    word-wrap: break-word;
+    margin-top: 0;
+}
+
+.sidebar > ul li {
+    margin-right: 12px;
+}
+
+.sidebar > ul > li.label {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.sidebar > ul > li.skill {
+    margin: 24px 13px 0 0;
+}
+
+.main {
+    overflow: hidden;
+    padding: 25px 15px; 
+    margin-left: 239px;
+}
+
+.main > h2 {
+    border-top: 1px solid #c9cacc;
+    border-bottom: 1px solid #c9cacc;
+    width: 100%;
+    padding: 5px 3px;
+}
+
+.experience {
+    width:  100%;
+}
+
+.experience > .when {
+    float: left;
+    width: 136px;
+    height: 100%;
+}
+
+.experience > .what {
+    overflow: hidden;
+}
+
+.what > .title {
+    font-weight: bold;
+}
+
+.what ul {
+    padding-left: 30px;
+}
+
+ul.tags {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.tags > li {
+    border-radius: 5px;
+    background-color: #0854a8;
+    color: #fff;
+    display: inline;
+    font-family: monospace;
+    padding: 4px 5px;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+.skill-container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 8px;
+}
+
+.skill-value {
+    background-color: #fff;
+    height: 8px;
+}

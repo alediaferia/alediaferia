@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    font: 0.7em "Verdana", sans-serif;
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+    overflow-y: visible;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sidebar {
+    width: 239px;
+    height: 100%;
+    float: left;
+    position: absolute;
+    padding-bottom: 72px;
+    border-right: 2px solid #0459c5;
+}
+
+.sidebar > .head {
+    padding: 0 10px 0 20px;
+    margin-top: 30px;
+}
+
+.sidebar > .head > h1 {
+    font-weight: 300;
+}
+
+.sidebar > .head > h2 {
+    font-weight: 300;
+}
+
+.sidebar > h3 {
+    margin: 0;
+    background-color: #0459c5;
+    padding: 6px 3px;
+    color: white;
+}
+
+.sidebar > ul {
+    list-style-type: none;
+    padding-left: 10px;
+    word-wrap: break-word;
+    margin-top: 6px;
+}
+
+.sidebar > ul li {
+    margin-right: 12px;
+}
+
+.sidebar > ul > li.label {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.sidebar > ul > li.skill {
+    margin: 24px 13px 0 0;
+}
+
+.main {
+    overflow: hidden;
+    padding: 25px 15px; 
+    margin-left: 239px;
+}
+
+.main > h2 {
+    border-top: 1px solid #c9cacc;
+    border-bottom: 1px solid #c9cacc;
+    width: 100%;
+    padding: 5px 3px;
+}
+
+.experience {
+    width:  100%;
+}
+
+.experience > .when {
+    float: left;
+    width: 136px;
+    height: 100%;
+}
+
+.experience > .what {
+    overflow: hidden;
+}
+
+.what > .title {
+    font-weight: bold;
+}
+
+.what ul {
+    padding-left: 30px;
+}
+
+ul.tags {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.tags > li {
+    border-radius: 5px;
+    background-color: #0459c5;
+    color: #ffffff;
+    border: 2px solid #0459c5;
+    display: inline;
+    font-family: monospace;
+    padding: 1px 3px;
+    line-height: 22px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.skill-container {
+    width: 100%;
+    background-color: #d0ddec;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.skill-value {
+    background-color: #0459c5;
+    height: 4px;
+    border-radius: 2px;
+}
